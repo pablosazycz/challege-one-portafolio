@@ -9,6 +9,7 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-about:#EAF2FD;
 }
 
 body {
@@ -22,10 +23,10 @@ body {
 ol, ul,li {
     list-style: none;
 }
-a{
+/* a{
     text-decoration: none;
     color: var(--cor-de-link);
-}
+} */
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 

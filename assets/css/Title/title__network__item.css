@@ -14,5 +14,9 @@
 
 .title__network__item p {
     margin-top: 0;
- 
+  
+}
+.title__network__item a {
+    text-decoration: none;
+    color: var(--cor-de-link);
 }

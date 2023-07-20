@@ -1,0 +1,8 @@
+.about__paragraph {
+    display: flex;
+    text-align: left;
+    text-transform: full-width;
+    margin-right: 20rem;
+font-size: 1rem;
+font-weight: 400;
+}
