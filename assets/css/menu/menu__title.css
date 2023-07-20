@@ -1,7 +1,8 @@
 .menu__title{
     display: flex;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 10rem;
     
 }

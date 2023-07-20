@@ -1,0 +1,18 @@
+.title__network__item {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.title__network__item img {
+    width: 2rem;
+
+}
+
+.title__network__item p {
+    margin-top: 0;
+ 
+}

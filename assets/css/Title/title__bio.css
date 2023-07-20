@@ -1,0 +1,6 @@
+.title__bio{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    font-size: 2rem;
+}

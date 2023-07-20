@@ -2,6 +2,11 @@
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    padding-left: 3rem;
+    padding-left: 1rem;
     padding-right: 3rem;
+    background-image: url(../img/lago-montana-cielo-azul-nubes_911849-34189.jpg);
+    background-position:top;
+    background-size: cover;
+    color: black;
+    
 }
