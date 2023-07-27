@@ -3,3 +3,70 @@
     display:flex;
     flex-direction: column;
 }
+
+.title__div{
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.title__profile{
+    display: flex;
+     border-radius: 50%;
+     width: 30%;
+ }
+
+ .title__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.title__bio{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    font-size: 2rem;
+}
+.title__subsection{  
+    display:flex;
+    font-weight: 400;
+    margin-top: 4rem;
+    font-size: 1.375rem;
+    font-style: italic;
+    text-align:justify;
+}   
+.title__network{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 3rem;
+    text-align: center;
+   
+}
+
+.title__network__item {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.title__network__item img {
+    width: 2rem;
+
+}
+
+.title__network__item p {
+    margin-top: 0;
+  
+}
+.title__network__item a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}

@@ -1,0 +1,144 @@
+/* Estilos para todos los experience__box */
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.experience__section__title {
+    font-family: Raleway;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+.experience__box {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    color: #464646;
+    justify-content: space-evenly;
+}
+
+.experience__title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.614rem;
+    font-family: Raleway;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0.5rem;
+
+}
+
+.experience__text {
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.188rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Alineación izquierda en las experience__box impares (1ra, 3ra, 5ta, etc.) */
+.experience__box:nth-child(even) {
+    flex-direction: row;
+    /* Mantén el orden original */
+}
+
+
+
+.experience__box:nth-child(even) .experience__info {
+    margin: 10rem;
+   
+
+}
+
+/* Alineación derecha en las experience__box pares (2da, 4ta, 6ta, etc.) */
+.experience__box:nth-child(odd) {
+    flex-direction: row-reverse;
+    /* Invierte el orden */
+}
+
+
+
+.experience__box:nth-child(odd) .experience__info {
+
+   margin:10rem;
+    
+
+
+    /* Mueve los spans a la derecha */
+}
+
+.experience__repo button {
+    width: Hug (7.25rem);
+    height: Hug (3.188rem);
+    padding: 1rem;
+    border: 0.063rem solid #2A7AE4;;
+    gap: 0.625;
+    
+
+    font-family: Raleway;
+    font-size: 1 rem;
+    font-weight: 400;
+    line-height: 1.188rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(42, 122, 228, 1);
+
+
+
+}
+
+.experience__demo button {
+    width:  (105px);
+    height:  (51px);
+    padding: 16px;
+    gap: 10px;
+    background: #2A7AE4;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+    border: none;
+
+}
+
+
+
+
+
+
+/* Media query para hacer el diseño responsive */
+@media screen and (max-width: 768px) {
+    .experience__box {
+        flex-wrap: wrap;
+        /* Permite que las cajas se ajusten en varias filas */
+    }
+
+    .experience__img {
+        flex-basis: 100%;
+        /* Ocupa el 100% del ancho de su contenedor en pantallas más pequeñas */
+        margin: 10px 0;
+        /* Agrega un margen entre las imágenes en pantallas más pequeñas */
+    }
+
+    .experience__info {
+        flex-basis: 100%;
+        /* Ocupa el 100% del ancho de su contenedor en pantallas más pequeñas */
+    }
+}

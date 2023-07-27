@@ -1,7 +1,29 @@
-.about{
+.about {
     display: flex;
     justify-content: space-around;
     padding: 5rem 5rem 5rem 5rem;
     background-color: var(--cor-de-about);
 
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 10rem;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.about__paragraph {
+    display: flex;
+    text-align: left;
+    text-transform: full-width;
+    margin-right: 20rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
