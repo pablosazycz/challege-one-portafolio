@@ -1,7 +1,7 @@
 .formcontato {
     padding-top: 3rem;
     display: grid;
-    
+    font-family: 'Raleway';
     background-color: var(--cor-de-about);
 }
 
@@ -26,11 +26,11 @@
 
 .formcontato__text {
     text-align: center;
-
+    font-family: 'Raleway';
 }
 
 .formcontato__title {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
@@ -41,10 +41,11 @@
 
 .formcontato__subtext {
     margin: auto;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.188rem;
+    margin-top: .5rem;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(70, 70, 70, 1);
@@ -74,7 +75,7 @@
     border: none;
     outline:none;
     border-bottom: 1px solid var(--color);
-    font-family: Raleway;
+    font-family: 'Raleway';
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: .5em;
 
@@ -101,7 +102,7 @@
     left: 5px;
     transform: translateY(10px);
     transition: transform .5s, color .3s;
-    font-family: Raleway;
+    font-family: 'Raleway';
 
 }
 
@@ -114,8 +115,9 @@
     padding: .8em 0;
     border: none;
     border-radius: .5em;
-    font-family: Raleway;
+    font-family: 'Raleway';
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
 
 }
 
@@ -132,7 +134,7 @@
     border: none;
     outline: none;
     border-bottom: 1px solid var(--color);
-    font-family: Raleway;
+    font-family: 'Raleway';
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: .5em;
 

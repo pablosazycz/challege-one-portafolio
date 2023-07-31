@@ -10,15 +10,27 @@ coloque nas sessões indicadas*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-de-about:#EAF2FD;
+
+   --fondo:#0f0e17;
+   --Titular:#fffffe;
+   --Parrafo:#a7a9be;
+   --Boton:#ff8906;
+   --TxtBoton:#fffffe;
+   --Stroke:black;
+   --Principal:#fffffe;
+   --Highligth:#ff8906;
+   --Secundario:#f25f4c;
+   --Terciario:#e53170;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
+    width: 100%;
 }
 ol, ul,li {
     list-style: none;

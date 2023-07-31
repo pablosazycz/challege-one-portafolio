@@ -1,9 +1,9 @@
-/* Estilos para todos los experience__box */
 .experience {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
     gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 .experience__section__title {
@@ -37,7 +37,7 @@
 }
 
 .experience__text {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.188rem;
@@ -51,7 +51,7 @@
 /* Alineación izquierda en las experience__box impares (1ra, 3ra, 5ta, etc.) */
 .experience__box:nth-child(even) {
     flex-direction: row;
-    /* Mantén el orden original */
+   
 }
 
 
@@ -65,18 +65,13 @@
 /* Alineación derecha en las experience__box pares (2da, 4ta, 6ta, etc.) */
 .experience__box:nth-child(odd) {
     flex-direction: row-reverse;
-    /* Invierte el orden */
+
 }
 
 
 
 .experience__box:nth-child(odd) .experience__info {
-
    margin:10rem;
-    
-
-
-    /* Mueve los spans a la derecha */
 }
 
 .experience__repo button {
@@ -84,18 +79,16 @@
     height: Hug (3.188rem);
     padding: 1rem;
     border: 0.063rem solid #2A7AE4;;
-    gap: 0.625;
+    gap: 0.625rem;
     
 
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 1 rem;
     font-weight: 400;
     line-height: 1.188rem;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(42, 122, 228, 1);
-
-
 
 }
 
@@ -106,7 +99,7 @@
     gap: 10px;
     background: #2A7AE4;
 
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -127,18 +120,14 @@
 @media screen and (max-width: 768px) {
     .experience__box {
         flex-wrap: wrap;
-        /* Permite que las cajas se ajusten en varias filas */
     }
 
     .experience__img {
         flex-basis: 100%;
-        /* Ocupa el 100% del ancho de su contenedor en pantallas más pequeñas */
         margin: 10px 0;
-        /* Agrega un margen entre las imágenes en pantallas más pequeñas */
     }
 
     .experience__info {
         flex-basis: 100%;
-        /* Ocupa el 100% del ancho de su contenedor en pantallas más pequeñas */
     }
 }
